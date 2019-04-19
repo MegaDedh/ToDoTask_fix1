@@ -4,28 +4,6 @@ fun main() {
     val ToDoTaskManager = ToDoTaskManager()
 
 
-//////////////////////БЛОК ЗАПОЛНЕНИЯ ДАННЫМИ ДЛЯ ТЕСТА begin///////////////////////////////////////////
-    ToDoTaskManager.addNewTaskList("Разработка под Android")
-    ToDoTaskManager.addNewTaskList("Автомобиль")
-    ToDoTaskManager.addNewTaskList("Поход на Алтай")
-    ToDoTaskManager.addNewTaskList("Зохватить весь Мир)")
-
-    ToDoTaskManager.addNewTaskItemInTaskList(1,"Пойти на FocusStart",Task.Priority.HIGH)
-    ToDoTaskManager.addNewTaskItemInTaskList(1,"Освоить Kotlin",Task.Priority.NORMAL)
-    ToDoTaskManager.changeTaskStatus(1,1)
-    ToDoTaskManager.addNewTaskItemInTaskList(2,"Заменить масло в ДВС",Task.Priority.NORMAL)
-    ToDoTaskManager.addNewTaskItemInTaskList(2,"Заменить масло в АККП",Task.Priority.NORMAL)
-    ToDoTaskManager.addNewTaskItemInTaskList(2,"Починить тормоза!",Task.Priority.HIGH)
-    ToDoTaskManager.addNewTaskItemInTaskList(2,"Заменить свечи",Task.Priority.LOW)
-    ToDoTaskManager.addNewTaskItemInTaskList(2,"Помыть машину",Task.Priority.LOW)
-
-    //   println(ToDoTaskManager.showTaskItemsInTaskList(2))
-    //   println(ToDoTaskManager.changeTaskStatus(2,6))
-    //   println(ToDoTaskManager.showTaskItemsInTaskList(2))
-//////////////////////БЛОК ЗАПОЛНЕНИЯ ДАННЫМИ ДЛЯ ТЕСТА end///////////////////////////////////////////
-
-
-
     println(Const.GROUP_LIST)
     println(ToDoTaskManager.showTaskList())
     println(Const.HELP_COMMAND)
