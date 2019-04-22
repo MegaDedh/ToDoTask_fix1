@@ -33,7 +33,7 @@ internal data class TaskGroup constructor(val taskName: String) {
     fun delTask(index: Int) =
         try {
             arrayOfTask.remove(arrayOfTask[index])
-        //    arrayOfTask.clear()
+        //    arrayOfTask.removeAt(index)
             Const.DEL_STATUS_OK
         } catch (e: IndexOutOfBoundsException){
             "${Const.DEL_TASK_ERROR} ${Const.TASK_NOT_EXIST}"
