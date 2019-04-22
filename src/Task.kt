@@ -1,5 +1,7 @@
-internal data class Task constructor(val taskTitle: String,
-                                         val taskPriority: Priority) {
+internal data class Task constructor(
+    val taskTitle: String,
+    val taskPriority: Priority
+) {
     var title: String = taskTitle
     var priority: Priority = taskPriority
     var status: Boolean = false

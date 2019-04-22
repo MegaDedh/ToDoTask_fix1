@@ -5,6 +5,7 @@ class Const {
         const val KEY_ADD_GROUP = "addGroup"
         const val KEY_ADD_TASK = "addTask"
         const val KEY_CHANGE_STATUS = "changeStatus"
+        const val KEY_DEL_TASK = "delTask"
         const val KEY_EXIT = "exit"
         const val KEY_HELP = "?"
 
@@ -18,6 +19,7 @@ class Const {
         const val ADD_TASK = "[название задачи] - добавить задачу в последнюю просмотренную группу"
         const val SHOW_GROUP = "[номер группы задач] - просмотр содержимого группы задач"
         const val CHANGE_STATUS = "[номер задачи] - изменить статус выполнения задачи из последней просмотренной группы"
+        const val DEL_TASK = "[номер задачи] - удалить задачу"
         const val EXIT = "- выход из программы"
         const val ENTER_PRIORITY = "Введите приоритет задачи (от 1 до 4)"
         const val INVALID_PRIORITY = "Неверно введён приоритет. Значение должно быть в диапазоне [1-4]"
@@ -27,7 +29,9 @@ class Const {
         const val USE_SHOW_GROUP = "Для проверки используйте showGroup"
         const val EMPTY_GROUP = "В списке ещё не создано ни одной задачи"
         const val CHANGE_STATUS_OK = "Статус задачи успешно изменён"
+        const val DEL_STATUS_OK = "Задача удалена"
         const val CHANGE_STATUS_ERROR = "Ошибка изменения статуса."
+        const val DEL_TASK_ERROR = "Ошибка удаления задачи."
 
     }
 }
